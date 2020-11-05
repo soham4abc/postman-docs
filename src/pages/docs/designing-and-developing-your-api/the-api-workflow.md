@@ -135,7 +135,7 @@ Click the __View Schema__ button to view the API in the web dashboard.
 
 ## Watching a Collection
 
-The watch option allows you to receive an email/in-app notification when your team member belonging to the same workspace modifies the collection for example adding a new request, renaming the collection, modifying the existing requests and so on.
+The watch option allows you to receive an email/in-app notification when your team member belonging to the same workspace modifies the collection for example adding a new request, renaming the collection, modifying the existing requests, adding/updating variables, pre-request script, tests, adding/deleting a folder, and description and so on.
 
 Once you've created the collection, click the __watch__ option to start watching the collection.
 
@@ -147,7 +147,7 @@ Click the bell icon on the top right corner to view the notification. The popup 
 
 In addition to this, you will receive an email with the information regarding who has made the change, what the change was, and when it was made.
 
-Click the __View__ button to view the collection in the web dashboard.
+Click the __View Changelog__ button to view the collection in the web dashboard.
 
 > If you created the collection and modified it from the same account, you will not receive email or in-app notifications for changes made.
 
