@@ -26,7 +26,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "First 5 things to try if you're new to Postman"
-    url: "https://blog.postman.com/2018/04/11/first-5-things-to-try-if-youre-new-to-postman/"
+    url: "https://blog.postman.com/first-5-things-to-try-if-youre-new-to-postman/"
 
 ---
 
@@ -50,8 +50,6 @@ If you're learning to carry out a specific task or workflow in Postman, check ou
 * [__Publishing APIs__](#publishing-apis)
 * [__Collaborating with your team__](#collaborating-with-your-team)
 * [__Developing with Postman__](#developing-with-postman)
-
-> [Postman for the Web](https://blog.postman.com/announcing-postman-for-the-web-now-in-open-beta/) is currently available in Beta. [Try it out](https://blog.postman.com/introducing-the-postman-agent-send-api-requests-from-your-browser-without-limits/) and give the team feedback by joining in the discussion on the [community forum](https://community.postman.com/t/announcing-postman-for-the-web-now-in-open-beta/14192).
 
 ### Making requests
 

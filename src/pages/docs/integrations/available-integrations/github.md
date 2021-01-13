@@ -22,6 +22,8 @@ contextual_links:
 
 Postman allows you to back up your collections (for paid plans only) or synchronize your APIs schemas on GitHub. For each of these integrations, you'll need to [generate a GitHub personal access token](#generating-a-github-personal-access-token).
 
+> If you are looking to import data into Postman from a GitHub repository, see [Importing via GitHub repositories](/docs/getting-started/importing-and-exporting-data/#importing-via-github-repositories).
+
 * [Backing up collections on GitHub](#backing-up-collections-on-github)
     * [Configuring GitHub integration for collections](#configuring-github-integration-for-collections)
     * [Backup collections to GitHub](#backup-collections-to-github)
@@ -94,6 +96,16 @@ To finish, click **Add Integration**.
 [![access token custom](https://assets.postman.com/postman-docs/GitHub_AccessToken_Custom_Domain.png)](https://assets.postman.com/postman-docs/GitHub_AccessToken_Custom_Domain.png)
 
 Enter your GitHub Personal Access Token, specify your GitHub custom domain and click **Proceed**. In Backup your Postman Collections, choose an existing Postman collection, specifying your GitHub repository, a filename for your backup, and your chosen branch name.
+
+#### Static IP Support
+
+If your network is behind a firewall that requires whitelisted IP addresses, you will need to use a static IP address to enable collection backups to GitHub on custom domains.
+
+Contact your IT team to whitelist the following static IP in your firewall to enable collection backups to GitHub:
+
+    * US East: `3.212.102.200`
+
+Once you whitelist this IP address, calls for this integration will be able to connect to your network and allow the integration to work as expected.
 
 [![github integrations screen](https://assets.postman.com/postman-docs/GitHub_Integrations3.png)](https://assets.postman.com/postman-docs/GitHub_Integrations3.png)
 

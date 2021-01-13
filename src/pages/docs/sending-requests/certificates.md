@@ -14,7 +14,7 @@ contextual_links:
     name: "Related Blog Posts"
   - type: link
     name: "Set and view SSL certificates with Postman"
-    url: "https://blog.postman.com/2017/12/05/set-and-view-ssl-certificates-with-postman/"
+    url: "https://blog.postman.com/set-and-view-ssl-certificates-with-postman/"
 
 warning: false
 
@@ -67,6 +67,8 @@ To remove a certificate, use the **Remove** link next to the certificate under 
 ## Editing a Certificate
 
 You cannot edit a certificate after it has been created. To make changes to it, you will need to remove the certificate and create a new one.
+
+> Let's Encrypt SSL certificates renew automatically—you do not need to carry out any manual steps. When a certificate is generated it has a 90 day expiry date and will renew seven days before it expires
 
 ## Certificate data
 
