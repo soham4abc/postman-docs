@@ -8,6 +8,10 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
+require('dotenv').config({
+  path: `.env`,
+});
+
 
 module.exports = {
   siteMetadata: {
@@ -158,6 +162,19 @@ module.exports = {
         },
         environments: ['production', 'development'],
       },
+    },
+    {
+      resolve: `gatsby-source-google-calendar`,
+      options: {
+        calendarIds: [
+          '80i3eoual8bn1k82jp7n4kmbi4@group.calendar.google.com',
+        ],
+        // options to retrieve the next 10 upcoming events
+        timeMin: (new Date()).toISOString(),
+        maxResults: 4,
+        singleEvents: true,
+        orderBy: 'startTime',
+      }
     },
   ],
 };
