@@ -9,7 +9,7 @@ contextual_links:
     name: "Sending requests"
     url: "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources""
+    name: "Additional Resources"
   - type: subtitle
     name: "Case Studies"
   - type: link
