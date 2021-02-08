@@ -9,12 +9,7 @@ contextual_links:
     name: "Sending requests"
     url: "/docs/sending-requests/requests/"
   - type: section
-    name: "Additional Resources"
-  - type: subtitle
-    name: "Videos"
-  - type: link
-    name: "Postman Code Generator Demo"
-    url:  "https://youtu.be/VTtS4-r2oSs"
+    name: "Additional Resources""
   - type: subtitle
     name: "Case Studies"
   - type: link
@@ -53,21 +48,17 @@ You can generate code snippets in various languages and frameworks within Postma
 
 ## Generating code snippets in Postman
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/VTtS4-r2oSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+In Postman, select the **Code** icon on the **Context bar** to open the **Code snippet** tab.
 
-<br/>
-
-In Postman, select **Code** under **Save** to open **Generate Code Snippets**.
-
-<img src="https://assets.postman.com/postman-docs/code-button-in-app2.jpg" width="350px" alt="User Menu"/>
+![Context Menu Icon](https://assets.postman.com/postman-docs/code-context-menu-icon.jpg)
 
 Select a language to view and copy your generated code snippet.
 
-![Generate code snippets](https://assets.postman.com/postman-docs/generate-code-snippets.jpg)
+![Code language](https://assets.postman.com/postman-docs/code-language.jpg)
 
-Click **Settings** to find additional configuration options based on your chosen language.
+Click the **Gear** icon to find additional configuration options based on your chosen language.
 
-![Generate code settings](https://assets.postman.com/postman-docs/generate-code-settings.jpg)
+![Code settings](https://assets.postman.com/postman-docs/code-settings.jpg)
 
 ## Supported languages/frameworks
 
@@ -77,31 +68,31 @@ Postman currently supports the following options:
 | --- | --- |
 | C | [LibCurl](https://curl.haxx.se/libcurl/c/) |
 | C# | [RestSharp](http://restsharp.org/)|
-| cURL | None (Raw [cURL](https://curl.haxx.se/) command) |
-| Go | Built-in [http package](https://golang.org/pkg/net/http/) |
-| HTTP | None (Raw HTTP request) |
+| cURL | [cURL](https://curl.haxx.se/) |
+| Dart | [Dart](https://dart.dev/) |
+| Go   | [http package](https://golang.org/pkg/net/http/) |
+| HTTP | (Raw HTTP request) |
 | Java | [OkHttp](https://github.com/square/okhttp) |
 | Java | [Unirest](https://github.com/Kong/unirest-java)|
 | JavaScript | [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)|
-| JavaScript | [jQuery AJAX](http://api.jquery.com/jquery.ajax/)|
-| JavaScript | Built-in [XHR](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)|
+| JavaScript | [jQuery](http://api.jquery.com/jquery.ajax/)|
+| JavaScript | [XHR](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)|
 | NodeJS | [Axios](https://github.com/axios/axios) |
-| NodeJS | Built-in [http](https://nodejs.org/api/http.html) module |
+| NodeJS | [Native](https://nodejs.org/api/http.html) |
 | NodeJS | [Request](https://github.com/request/request) |
 | NodeJS | [Unirest](https://github.com/Kong/unirest-nodejs) |
-| Objective-C | Built-in [NSURLSession](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSURLSession_class/) |
+| Objective-C | [NSURLSession](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSURLSession_class/) |
 | OCaml | [Cohttp](https://github.com/mirage/ocaml-cohttp) |
-| PHP | Built-in [curl](http://php.net/manual/en/ref.curl.php) |
-| PHP | [HttpRequest](https://www.php.net/manual/en/reserved.variables.request.php)|
+| PHP | [cURL](http://php.net/manual/en/ref.curl.php) |
+| PHP | [Http_Request2](https://www.php.net/manual/en/reserved.variables.request.php)|
 | PHP | [pecl_http](https://mdref.m6w6.name/http)|
 | PowerShell | [RestMethod](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/invoke-restmethod?view=powershell-7)|
-| Python | Built-in [http.client](https://docs.python.org/3/library/http.client.html) (Python 3) |
+| Python | [http.client](https://docs.python.org/3/library/http.client.html) (Python 3) |
 | Python | [Requests](https://requests.readthedocs.io/en/master/)|
-| Ruby | Built-in [NET::Http](http://docs.ruby-lang.org/en/2.0.0/Net/HTTP.html)|
-| Shell | [HTTPie](https://github.com/jkbrzt/httpie)|
+| Ruby   | [NET::Http](http://docs.ruby-lang.org/en/2.0.0/Net/HTTP.html)|
+| Shell | [Httpie](https://github.com/jkbrzt/httpie)|
 | Shell | [wget](https://www.gnu.org/software/wget/) |
-| Shell | [cURL](https://curl.haxx.se/)|
-| Swift | Built-in [NSURLSession](https://developer.apple.com/documentation/foundation/urlsession)|
+| Swift | [URLSession](https://developer.apple.com/documentation/foundation/urlsession)|
 
 > If your language isn't currently offered, or if there is a setting that you'd find useful, click **Contribute on GitHub** to contribute to [Postman's open source project](https://github.com/postmanlabs/postman-code-generators).
 
