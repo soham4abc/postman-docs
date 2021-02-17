@@ -49,30 +49,38 @@ As a team admin, you have the power to define Postman access at the team, worksp
 
 ### Team roles
 
-You can [assign](/docs/administration/managing-your-team/) three role types to team members: **Admin**, **Billing**, and **Developer**.
+You can [assign](/docs/administration/managing-your-team/) one or more role types to team members: **Admin**, **Billing**, and **Developer**. If you are on a [Postman Business or Enterprise plan](https://www.postman.com/pricing), you will also have the option of assigning a **Community Manager**.
 
 * **Admin**: manage team members and team settings
 * **Billing**: manage team plan and payments
 * **Developer**: access team resources and workspaces
+* **Community Manager**: manage public visibility of workspaces and team profile (Business and Enterprise plans only)
 
 Each user must have at least one role attached to them, and can hold multiple roles simultaneously.
 
 Team roles provide high-level access control:
 
-| Permission | Admin | Billing | Developer |
-| --- |:---:| --- | --- |
-| Add and remove users | &#x2714; | |
-| Manage team Admins and Developers | &#x2714; | |
-| Manage SSO | &#x2714; ||
-| Manage custom domains  | &#x2714; ||
-| View audit logs  | &#x2714; | |
-| View usage data | &#x2714; | &#x2714; | &#x2714;
-| Manage Billing members | | &#x2714; |
-| Manage payment | | &#x2714; | |
-| Change plan  | | &#x2714; |
-| View shared APIs, collections, environments, mock servers and monitors | | |&#x2714;
-| View and create team workspaces | | | &#x2714;
-| View activity feed  | | | &#x2714;
+| Permission | Admin | Billing | Developer | Community Manager |
+| --- |:---:| --- | --- | --- |
+| Add users | &#x2714; | | |
+| Remove users | &#x2714; | | |
+| Manage team Admins and Developers | &#x2714; | | |
+| Manage SSO | &#x2714; || |
+| Manage custom domains  | &#x2714; | | |
+| View audit logs  | &#x2714; | | | &#x2714;
+| View usage data | &#x2714; | &#x2714; | &#x2714; | &#x2714;
+| Manage Billing members | | &#x2714; | |
+| Manage payment | | &#x2714; | | |
+| Change plan  | | &#x2714; | |
+| View shared APIs, collections, environments, mock servers and monitors | | | &#x2714; | &#x2714;
+| View and create team workspaces | | | &#x2714; | &#x2714;
+| Change visibility of workspaces to team or public | | | &#x2714;&ast; | &#x2714;
+| Approve requests to change workspace visibility&ast;&ast; | | | | &#x2714;
+| Enable public team profile | &#x2714; | | | &#x2714;
+
+&ast; On Postman Team and Free plans, any developer can change visibility of workspaces
+
+&ast;&ast; Enterprise and Business plans only
 
 ### Workspace roles
 
@@ -160,7 +168,7 @@ Billing roles can only be granted by a fellow team member with a billing role. I
 A "Super Admin" role is being considered for development. You can track progress and upvote [this issue on GitHub](https://github.com/postmanlabs/postman-app-support/issues/6102) to show your support.
 
 * **Our colleague left the organization, how can we access their collections?**  
-Remove the former colleague from your Postman team in the [web dashboard](https://app.postman.co/team). When a collection owner is removed from your team, ownership of their shared collections is transferred to fellow team members and these collections will continue to exist in your Postman team.
+You can remove a former colleague from your Postman team via your [dashboard](https://app.postman.co/team). When a collection owner is removed from your team, ownership of their shared collections is transferred to fellow team members and these collections will continue to exist in your Postman team.
 
 * **What are "support" roles?**  
 A support-only account is one that holds an admin and/or billing role, but is not a developer.
