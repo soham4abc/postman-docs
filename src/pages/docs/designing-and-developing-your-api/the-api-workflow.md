@@ -34,7 +34,7 @@ You can connect various components of your API development and testing process t
     * [Editing your schema](#editing-your-schema)
     * [Generating a collection](#generating-a-collection)
 * [Watching an API](#watching-an-api)
-* [Watching a Collection](#watching-a-collection)
+* [Watching a collection](#watching-a-collection)
 * [Developing an API](#developing-an-api)
     * [Adding a mock server](#adding-a-mock-server)
     * [Adding documentation](#adding-documentation)
@@ -119,7 +119,7 @@ Click __View schema changelog__ to access the full changelog or __View API__ to 
 
 > You will not receive notifications for changes made by yourself.
 
-## Watching a Collection
+## Watching a collection
 
 The watch option allows you to receive an email/in-app notification when your team member belonging to the same workspace modifies the collection for example adding a new request, renaming the collection, modifying the existing requests, adding/updating variables, pre-request script, tests, adding/deleting a folder, and description and so on.
 
