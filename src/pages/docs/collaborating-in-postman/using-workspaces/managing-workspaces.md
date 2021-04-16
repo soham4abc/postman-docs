@@ -1,6 +1,6 @@
 ---
 title: "Using and managing workspaces"
-order: 77
+order: 78
 page_id: "managing_workspaces"
 contextual_links:
   - type: section
@@ -48,10 +48,6 @@ You can access personal, team, and private workspaces using the workspace select
 To view and edit your workspace details (e.g. name, description), navigate to the workspace selector and hover over a workspace. Then, click ***...*** and select **View Details**.
 
 <img alt="Default Workspace" src="https://assets.postman.com/postman-docs/create-workspace-dropdown.jpg" width="300px"/>
-
-You can access public workspaces via the [**Workspaces** category in the API Network](https://www.postman.com/explore/workspaces).
-
-[![Access Public Workspaces](https://assets.postman.com/postman-docs/access_public_workspaces.gif)](https://assets.postman.com/postman-docs/access_public_workspaces.gif)
 
 ## Sharing workspaces
 
