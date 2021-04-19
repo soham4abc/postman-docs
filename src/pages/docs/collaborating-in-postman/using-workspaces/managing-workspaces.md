@@ -65,10 +65,6 @@ Add individuals you would like to invite to the workspace by email or by [group]
 
 When your collaborators accept the invite from the notification they receive, they will be able to access the workspace.
 
-You can share a Public workspace by sharing its URL directly. To access the public profile URL, navigate to __Your Team__, then click __View Team Settings__.
-
-[![Enable team profile](https://assets.postman.com/postman-docs/enable-team-profile.jpg)](https://assets.postman.com/postman-docs/enable-team-profile.jpg)
-
 ## Joining workspaces
 
 In some cases you will join a workspace by following the link in an email / notification when a member of the workspace invites you. If you are part of a team in Postman, you can find workspaces to join. Open the workspaces drop-down from the control at the top of Postman in the left. Search for a workspace and select the workspace you want to join.
@@ -80,10 +76,6 @@ Select the workspace, then click __Join Workspace__ at the top right.
 <img alt="Join Workspace" src="https://assets.postman.com/postman-docs/join-workspace-v8.jpg"/>
 
 Once you join the workspace, you can start creating collections, sending requests, visualizing your responses and even much more.
-
-> To leave a public workspace, select the **...** on the right corner of the workspace overview and __Leave workspace__. Click __Leave__ to finalize leaving the workspace.
-
-[![Leave workspace](https://assets.postman.com/postman-docs/leave-public-workspace.jpg)](https://assets.postman.com/postman-docs/leave-public-workspace.jpg)
 
 ## Adding elements to workspaces
 
@@ -131,7 +123,7 @@ Click the **...** on the right corner of the workspace overview, then select __D
 
 Confirm that you wish to delete the workspace—it will no longer be available following this action.
 
-> Public workspaces must have their visibility reverted in order to be deleted. If you try to delete a public workspace by clicking **...** on the right corner of the workspace overview, the option to delete will be greyed out.
+> [Public workspace](/docs/collaborating-in-postman/public-workspaces/) must have their visibility reverted in order to be deleted.
 
 ## Managing workspace members
 
@@ -141,9 +133,7 @@ For a team workspace, you can add or remove any team member or [group](/docs/adm
 
 <img alt="Edit team workspace" src="https://assets.postman.com/postman-docs/edit-members-team-workspace-v8.jpg" width="350px">
 
-Being an admin, you have the permission to add and remove any member from a public workspace. To add members to a public workspace, navigate to the __Members__ section, enter an email address, click __Add__ to the team, then __Save__.
-
-<img alt="Add member" src="https://assets.postman.com/postman-docs/add-team-member.jpg" width="300px"/>
+Being an admin, you have the permission to add and remove any member from a public workspace. To add members to a public workspace, see [Adding members to a public workspace](/docs/collaborating-in-postman/public-workspaces/#adding-elements-to-a-public-workspace).
 
 Another way to add workspace members is to click __Manage Team__ and select __Invite Users__.
 

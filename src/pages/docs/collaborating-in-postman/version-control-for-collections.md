@@ -11,7 +11,7 @@ contextual_links:
     url: "/docs/sending-requests/intro-to-collections/"
   - type: section
     name: "Additional Resources"
-  - type: subtitle
+  - type: subtitles
     name: "Videos"
   - type: link
     name: "Version Control for Collections | Postman Level Up"

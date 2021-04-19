@@ -93,7 +93,7 @@ Once you join the workspace, you can start creating collections, sending request
 
 ## Leaving a public workspace
 
-To leave a public workspace, select the **...** on the right corner of the workspace overview and Leave workspace.
+To leave a public workspace, select the **...** on the right corner of the workspace overview and **Leave workspace**.
 
 <img alt="Leave public workspace" src="https://assets.postman.com/postman-docs/leaving-public-workspace.jpg"/>
 
