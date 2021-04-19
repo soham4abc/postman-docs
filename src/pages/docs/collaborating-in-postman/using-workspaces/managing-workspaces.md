@@ -45,7 +45,7 @@ You can [create workspaces](/docs/collaborating-in-postman/using-workspaces/crea
 
 You can access personal, team, and private workspaces using the workspace selector at the top of Postman.
 
-To view and edit your workspace details (e.g. name, description), navigate to the workspace selector and hover over a workspace. Then, click ***...*** and select **View Details**.
+To view and edit your workspace details (e.g. name, description), navigate to the workspace selector and hover over a workspace. Then, click ***...*** and select **View**.
 
 <img alt="Default Workspace" src="https://assets.postman.com/postman-docs/create-workspace-dropdown.jpg" width="300px"/>
 
