@@ -123,7 +123,7 @@ Click the **...** on the right corner of the workspace overview, then select __D
 
 Confirm that you wish to delete the workspace—it will no longer be available following this action.
 
-> [Public workspace](/docs/collaborating-in-postman/public-workspaces/) must have their visibility reverted in order to be deleted.
+> [Public workspaces](/docs/collaborating-in-postman/public-workspaces/) must have their visibility reverted in order to be deleted.
 
 ## Managing workspace members
 

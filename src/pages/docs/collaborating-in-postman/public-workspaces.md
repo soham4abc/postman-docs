@@ -22,7 +22,7 @@ contextual_links:
 
 * [Creating a public workspace](#creating-a-public-workspace)
 * [Accessing a public workspace](#accessing-a-public-workspace)
-* [Sharing a public workspace](#commenting-on-a-folder)
+* [Sharing a public workspace](#sharing-a-public-workspace)
 * [Joining a public workspace](#joining-a-public-workspace)
 * [Leaving a public workspace](#leaving-a-public-workspace)
 * [Adding elements to a public workspace](#adding-elements-to-a-public-workspace)
@@ -75,7 +75,7 @@ To view and edit your public workspace details (e.g. name, description), navigat
 
 ## Sharing a public workspace
 
-You can share a Public workspace by sharing its URL directly. To access the public profile URL, navigate to Your Team, then click **View Team Settings**.
+You can share a public workspace by sharing its URL directly. To access the public profile URL, navigate to **Your Team**, then click **View Team Settings**.
 
 <img alt="Enable team profile" src="https://assets.postman.com/postman-docs/enable-team-profile.jpg" height="500px"/>
 
@@ -87,19 +87,15 @@ If you are part of a team in Postman, you can find public workspaces to join. Op
 
 Select the public workspace, then click **Join Workspace** at the top right.
 
-<img alt="Join public workspace" src="https://assets.postman.com/postman-docs/join-public-workspace-from-overview.jpg"/>
+<img alt="Join public workspace" src="https://assets.postman.com/postman-docs/join-public-workspace-from-overview-v8.jpg"/>
 
 Once you join the workspace, you can start creating collections, sending requests, visualizing your responses and even much more.
 
 ## Leaving a public workspace
 
-To leave a public workspace, select the **...** on the right corner of the workspace overview and **Leave workspace**.
+To leave a public workspace, select the **...** on the right corner of the workspace overview and **Leave workspace**. Click **Leave** to finalize leaving the workspace.
 
 <img alt="Leave public workspace" src="https://assets.postman.com/postman-docs/leaving-public-workspace.jpg"/>
-
-Click **Leave** to finalize leaving the workspace.
-
-<img alt="Leave public workspace" src="https://assets.postman.com/postman-docs/leave-public-workspace.jpg" width="500px"/>
 
 ## Adding elements to a public workspace
 
