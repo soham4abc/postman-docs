@@ -48,17 +48,19 @@ We'll cover these topics to learn command line integration with Newman:
 
 ## Getting Started
 
-Newman is built on Node.js. To run Newman, make sure you have Node.js installed.
+Newman is built on Node.js.
+
+> To run Newman, make sure you have Node.js installed.
 
 You can [download and install](https://nodejs.org/en/download/current/) Node.js on Linux, Windows, and Mac OSX.
 
-After you install Node.js, Newman is just a command away. Install Newman from npm globally on your system, which allows you to run it from anywhere.
+Once you install Node.js, Newman is just a command away. Install Newman from npm globally on your system, which allows you to run it from anywhere.
 
 ```bash
 $ npm install -g newman
 ```
 
-The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system.
+The easiest way to run Newman is to run it with a collection. You can run any collection file from your file system. The **newman run** command allows you to specify a collection to be run.
 
 > You can [export a collection](/docs/getting-started/importing-and-exporting-data/#exporting-collections) to share as a file.
 
