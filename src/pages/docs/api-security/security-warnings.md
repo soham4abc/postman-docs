@@ -4,6 +4,14 @@ order: 116
 page_id: "security_warnings"
 warning: false
 search_keyword: "api security, api schema, security warnings, schema validation, security validation"
+contextual_links:
+- type: section
+    name: "Additional Resources"
+  - type: subtitle
+    name: "Related Blog Posts"
+  - type: link
+    name: "Introducing Security Warnings During API Validation"
+    url: "https://blog.postman.com/security-warnings-during-api-validation/"
 
 ---
 
