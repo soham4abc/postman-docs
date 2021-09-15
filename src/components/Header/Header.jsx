@@ -249,6 +249,7 @@ class Header extends React.Component {
       icon2.classList.remove('open');
     }
   }
+
   /* eslint-enabe class-methods-use-this */
 
   render() {
