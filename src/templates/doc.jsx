@@ -16,7 +16,7 @@ export default ({ data }) => {
   if (post.frontmatter.contextual_links) {
     contextualLinks = <ContextualLinks links={post.frontmatter.contextual_links} />;
   }
-  
+
   return (
     <Layout>
       <SEO title={post.frontmatter.title} slug={post.fields.slug} />
@@ -29,7 +29,7 @@ export default ({ data }) => {
             <div className="row row-eq-height">
               <main className="col-sm-12 col-md-12 col-lg-9 offset-lg-0 col-xl-7 offset-xl-1 doc-page">
                 <h1>{post.frontmatter.title}</h1>
-                <span id="content-container" dangerouslySetInnerHTML={{ __html: post.html }} />
+                <span dangerouslySetInnerHTML={{ __html: post.html }} />
               </main>
               <aside className="col-sm-12 col-md-12 col-lg-3 offset-lg-0 col-xl-3 offset-xl-1 right-column">
                 <hr className="d-block d-lg-none"/>
