@@ -1,6 +1,5 @@
 /* eslint-disable react/no-danger */
-
-import React, { useEffect } from 'react';
+import React from 'react';
 import { graphql } from 'gatsby';
 import Layout from '../components/layout';
 import ContextualLinks from '../components/ContextualLinks/ContextualLinks';

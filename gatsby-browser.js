@@ -7,6 +7,8 @@ import 'bootstrap/dist/js/bootstrap.min';
 export const onInitialClientRender = () => {
   if (!window.location.hash) {
     window.scrollTo(0, 0);
+  } else {
+    window.location = window.location.hash;
   }
 };
 
