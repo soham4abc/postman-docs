@@ -1,6 +1,6 @@
 ---
 title: "CircleCI"
-order: 164.3
+order: 164.2
 page_id: "circleci"
 warning: false
 contextual_links:

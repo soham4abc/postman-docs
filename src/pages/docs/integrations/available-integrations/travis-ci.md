@@ -1,6 +1,6 @@
 ---
 title: "Travis CI"
-order: 164.4
+order: 178.1
 page_id: "travisci"
 warning: false
 contextual_links:

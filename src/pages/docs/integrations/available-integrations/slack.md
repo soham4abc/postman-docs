@@ -1,6 +1,6 @@
 ---
 title: "Slack"
-order: 178
+order: 177
 page_id: "slack"
 warning: false
 contextual_links:

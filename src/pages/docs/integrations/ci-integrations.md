@@ -1,6 +1,6 @@
 ---
 title: "CI Integrations"
-order: 164.2
+order: 162.1
 page_id: "ci-integrations"
 warning: false
 contextual_links:
@@ -13,10 +13,10 @@ contextual_links:
     name: "Next Steps"
   - type: link
     name: "CircleCI"
-    url: "/docs/integrations/available-integrations/ci-integrations/circleci/"
+    url: "/docs/integrations/available-integrations/circleci/"
   - type: link
     name: "Travis CI"
-    url: "/docs/integrations/available-integrations/ci-integrations/travis-ci/"
+    url: "/docs/integrations/available-integrations/travis-ci/"
 ---
 
 Continuous Integration and Continuous Delivery (CI/CD) are a core component of the [API development workflow](/docs/designing-and-developing-your-api/the-api-workflow/). Postman integrates with popular CI tools so you can view details about API builds in the same place where you define and test your API.
@@ -27,8 +27,8 @@ After you set up CI integration, you can view the status of builds or kick off a
 
 To set up CI integration for your API, you’ll need to create an API token in your CI tool and configure your API in Postman. See the instructions for your CI tool:
 
-* [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/)
-* [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/)
+* [CircleCI](/docs/integrations/available-integrations/circleci/)
+* [Travis CI](/docs/integrations/available-integrations/travis-ci/)
 
 ## Viewing build status
 
@@ -63,7 +63,7 @@ To generate configuration code for Newman:
 1. (Optional) Select **+ Add more** to select additional collections to run.
 1. Select **Copy** to copy the Newman configuration, and then select **Finish**.
 1. Add the Newman configuration you copied to the build configuration file in your API repository. See the instructions for your CI tool:
-    * [CircleCI](/docs/integrations/available-integrations/ci-integrations/circleci/#configuring-newman-for-circleci)
-    * [Travis CI](/docs/integrations/available-integrations/ci-integrations/travis-ci/#configuring-newman-for-travis-ci)
+    * [CircleCI](/docs/integrations/available-integrations/circleci/#configuring-newman-for-circleci)
+    * [Travis CI](/docs/integrations/available-integrations/travis-ci/#configuring-newman-for-travis-ci)
 
 <img alt="Generate Newman configuration for CI" src="https://assets.postman.com/postman-docs/ci-generate-newman-config-v9.jpg" width="543">
