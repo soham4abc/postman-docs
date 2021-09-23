@@ -98,6 +98,11 @@
       padding-bottom: 2px;
       text-decoration: none;
     }
+
+    .before:hover {
+      text-decoration: none;
+    }
+
   }
 
   @media (max-width: 765px) {
@@ -105,6 +110,7 @@
     padding-right: 30px !important;
   }
 }
+
 
 // make left nav full width in mobile view
 .left-nav {
@@ -199,10 +205,9 @@ code[class*="language-"] {
 .gatsby-highlight {
   background-color: #2d2d2d;
   border-radius: 0.3em;
-  margin: 0.5em 0;
+  margin: 1rem 0;
   padding: 1em;
   overflow: auto;
-  border-left: 0.5em solid $postman-orange;
   white-space: pre-wrap;
   word-break: break-word;
   // max-width: 600px;
